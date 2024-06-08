@@ -1,0 +1,34 @@
+{% extends 'test_f.html' %}
+
+{% block title %}
+Be Writer
+{% endblock %}
+
+{% block body %}
+    <div id="head" class="container">
+        <p id="writer">Be Writer</p>
+        <input type="text" placeholder="Поиск..." class="search">
+        <a href="test_f1_enter.html" id="enter" title="Войдите, если у вас есть аккаунт">Вход</a>
+        <p id="i">/</p>
+        <a href="test_f1_registration.html" id="regis" title="Зарегистрируйте, если у вас не аккаунта"><u>Регистрация</u></a>
+    </div>
+    <div class="container" id="show-create">
+    <aside>
+        <a id="articles" class="" href="posts.html">Show Articles</a>
+    </aside>
+
+    <aside>
+        <a id="create_btn" class="" href="create_article.html">Create Articles</a>
+    </aside>
+    </div>
+
+
+
+        <div id="footer"></div>
+    <p class="xyi">Think of a footer as a safety net for users who haven’t been able to find the information they’re
+        looking for in other sections of your site. By providing helpful links, you can prevent some visitors
+        from leaving your site to never return. The website footer is the section of content at the very bottom of a
+        web page. It typically contains a copyright notice, link to a privacy policy, sitemap, logo, contact
+        information, social media icons, and an email sign-up form. In short, a footer contains information that
+        improves a website’s overall usability.</p>
+{% endblock %}

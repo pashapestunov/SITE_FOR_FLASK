@@ -1,0 +1,18 @@
+{% extends 'test_f.html' %}
+
+{% block title %}
+Вход
+{% endblock %}
+
+{% block body %}
+    <div>
+        <h3 class="be_enter"><a href="test_f1.html" class="back_enter"><</a>Be Writer</h3>
+        <p class="sing_enter"><strong>Please Sing In</strong></p>
+        <input class="name_enter" type="text" placeholder="EMAIL ADDRESS OR NAME" maxlength="20" minlength="10">
+        <input class="password_enter" type="password" placeholder="PASSWORD" maxlength="20" minlength="10">
+        <div class="sing_in_enter">SIGN IN</div>
+        <p class="forgot_enter"><u>Forgot Password?</u></p>
+        <p class="dont_enter">Don't have an account? <u>Join Now</u></p>
+        <p class="text_enter" style="opacity: 0.4;">By signing, you agree to our <u>Terms of Service, Privacy, Policy,</u> and <u>Community Rules</u></p>
+    </div>
+{% endblock %}

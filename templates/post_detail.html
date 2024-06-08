@@ -1,0 +1,19 @@
+{% extends 'test_f.html' %}
+
+{% block title %}
+{{ article.title }}
+{% endblock %}
+
+{% block body %}
+    <div id="all_posts" class="">
+        <h1>{{ article.title }}</h1>
+
+        <div id="all_s" class="alert alert-info">
+            <p id="all_w">{{ article.text }}</p>
+            <p id="all_r"><b id="all_e">Дата: {{ article.date.date() }}</b></p>
+            <a href="/posts/{{ article.id }}/del" class="btn btn-danger">Удалить</a>
+            <a href="/posts/{{ article.id }}/update" class="btn btn-success">Редактировать</a>
+            <a href="/posts.html" class="btn btn-warning">Назад</a>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,196 @@
+* {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: none;
+
+}
+
+#writer {
+    font-size: 1.5em;
+    font: weight: bolt;
+    padding-top: 10px;
+}
+
+.search {
+    flex-grow: 1;
+    margin: 0px 20px;
+    padding: 5px 10px;
+    font-size: 1em;
+    border: 1 solid silver;
+    border-radius: 4px;
+    outline: none;
+
+}
+
+#enter, #regis, #i {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+#enter:hover, #regis:hover {
+    text-decoration: underline;
+    color: silver;
+}
+
+#enter u, #regis u {
+    text-decoration: none;
+}
+
+#i {
+    font-size: 1.2em;
+    font-weight: bolt;
+    margin: 0 5px;
+}
+
+#show-create {
+    font-size: 3em;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15%;
+    margin-bottom: 20%;
+    flex-wrap: wrap;
+}
+
+#articles, #create_btn {
+    border: 0px solid silver;
+    border-radius: 8px;
+    background-color: #50a9fb;
+    color: white;
+    padding: 10px 25px 15px 25px;
+    text-decoration: none;
+}
+
+
+
+    /* position: fixed; - блок будет скролиться вместе с сайтом */
+    /* position: relative; -относительно себя. absolute - относительно документа.
+    top: 30px;*/
+
+
+#footer {
+    width: 100%;
+    height: 0px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid none;
+    padding: 0px;
+    font-size: 1.2em;
+    color: #333;
+    float: bottom;
+}
+
+
+.xyi {
+    padding: 0% 4% 0 5%;
+    opacity: 1;
+}
+
+
+
+/* СТРАНИЦА ВХОДА В АККАУНТ */
+
+
+
+.be_enter {
+    font-size: 2.5em;
+    margin: 14% 0% 2% 0%;
+}
+
+.sing_enter {
+    font-size: 3.5em;
+    margin: 0% 0% 5% 37%;
+}
+
+.name_enter, .password_enter {
+    width: 50%;
+    margin: 1% 25% 0 25%;
+    font-size: 1em;
+    padding: 0.5%;
+}
+
+.sing_in_enter {
+    margin: 1% 25% 0% 25%;
+    border: 1px solid white;
+    height: 45px;
+    width: 50%;
+    padding: 0.7% 0% 0% 20%;
+    background-color: #50a9fb;
+    color: white;
+}
+
+.forgot_enter {
+    font-size: 1em;
+    margin: 1% 0% 0% 43%;
+}
+
+.dont_enter {
+    font-size: 1em;
+    margin: 0% 0% 0% 39%;
+}
+
+.text_enter {
+    font-size: 1em;
+    margin: 3% 0% 0% 29%;
+}
+
+.back_enter {
+    margin: 15% 17% 0% 25%;
+    text-decoration: none;
+    color: black;
+    font-family: comic sans MS;
+}
+
+
+
+/* СТРАНИЦА РЕГИСТРАЦИИ АККАУНТА */
+
+
+
+.be_regis {
+    font-size: 2.5em;
+    margin: 12% 0% 2% 0%;
+}
+
+.dont_regis {
+    font-size: 1em;
+    margin: 1% 0% 0% 40%;
+}
+
+/* ДОБАВЛЕНИЕ СТАТЬИ */
+
+#cr {
+    width: 60%;
+    margin: 10% 0% 0% 20%;
+}
+
+.back_home {
+    color: black;
+    margin-top: 30px;
+
+}
+
+/* ВСЕ СТАТЬИ НА САЙТЕ */
+
+#all_s {
+    background-colo;
+
+}
+
+#all_q, #all_w, #all_e, #all_r {
+    background-color: #cff4fc;
+    width: 100%;
+    padding: 0.1%;
+}
+
+#all_posts {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
+}

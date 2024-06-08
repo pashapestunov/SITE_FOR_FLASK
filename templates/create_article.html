@@ -1,0 +1,18 @@
+{% extends 'test_f.html' %}
+
+{% block title %}
+Добавление статьи
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <form id ="cr" method="post">
+        <h1 id="crd">Добавлние статьи</h1>
+        <input type="text" name="title" id="title" class="form-control" placeholder="Введите название"><br>
+        <textarea name="intro" id="intro" class="form-control" placeholder="Введите анонс"></textarea><br>
+        <textarea name="text" id="text" class="form-control" placeholder="Введите основной текст"></textarea><br>
+        <input type="submit" class="btn btn-success" value="Опубликовать">
+        <a href="test_f1.html" class="btn btn-warning">Назад</a>
+    </form>
+</div>
+{% endblock %}
