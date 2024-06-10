@@ -35,6 +35,11 @@ def index():
     return render_template("test_f1.html")
 
 
+@app.route('/about_site.html')
+def about_site():
+    return render_template("about_site.html")
+
+
 @app.route('/test_f1_enter.html')
 def test_f1_enter():
     return render_template("test_f1_enter.html")
